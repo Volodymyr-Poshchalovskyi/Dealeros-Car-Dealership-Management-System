@@ -1,0 +1,68 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Invoice STK-275</title>
+        <style>
+            body { font-family: Arial, sans-serif; color: #333; line-height: 1.6; }
+            .container { max-width: 800px; margin: 0 auto; padding: 30px; border: 1px solid #ddd; }
+            .header { display: flex; justify-content: space-between; border-bottom: 2px solid #111; padding-bottom: 15px; margin-bottom: 25px; }
+            .title { color: #e31c1c; margin: 0; font-size: 28px; }
+            table { width: 100%; border-collapse: collapse; margin-bottom: 25px; }
+            th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+            th { background-color: #f8f9fa; }
+            .right { text-align: right; }
+            .total-row { background-color: #111; color: #fff; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div>
+                    <h1 class="title">SA Motors</h1>
+                    <p style="margin: 5px 0 0 0;">Investor Settlement Statement</p>
+                </div>
+                <div class="right">
+                    <strong>Date:</strong> 15 Apr 26<br>
+                    <strong>Stock ID:</strong> STK-275
+                </div>
+            </div>
+            
+            <h3>Vehicle Details</h3>
+            <table>
+                <tr>
+                    <th>Make & Model</th>
+                    <td>520D Lux</td>
+                    <th>Registration</th>
+                    <td>NG64 EOH</td>
+                </tr>
+            </table>
+
+            <h3>Financial Breakdown</h3>
+            <table>
+                <tr><td>Total Cost In</td><td class="right">£7,648.77</td></tr>
+                <tr><td>Sale Price</td><td class="right">£100,000</td></tr>
+                <tr style="background:#f8f9fa; font-weight:bold;">
+                    <td>Gross Profit</td>
+                    <td class="right" style="color: green;">£92,351.23</td>
+                </tr>
+            </table>
+
+            <h3>Investor Settlement (Joseph)</h3>
+            <table>
+                <tr><td>Capital Return</td><td class="right">£7,648.77</td></tr>
+                <tr><td>Profit Share (30%)</td><td class="right">£27,705.369</td></tr>
+                <tr class="total-row">
+                    <td>Total Payout Due</td>
+                    <td class="right">£35,354.139</td>
+                </tr>
+            </table>
+            
+            <div style="text-align: center; color: #888; margin-top: 40px; font-size: 12px;">
+                SA Motors (TRIAL TASK) London — Registered Dealership
+            </div>
+        </div>
+    </body>
+    </html>
+    
